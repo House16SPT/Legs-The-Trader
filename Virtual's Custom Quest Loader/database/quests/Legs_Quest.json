@@ -1,0 +1,2623 @@
+{
+  "Legs_Unlock": {
+    "QuestName": "Got a Friend in Need",
+    "_id": "Legs_Unlock",
+    "acceptPlayerMessage": "Legs_Unlock acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Legs_Unlock changeQuestMessageText",
+    "completePlayerMessage": "Legs_Unlock completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Legs_Unlock I_2",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c7d55de2e221644f31bff68",
+            "61659f79d92c473c770213ee",
+            "591c4efa86f7741030027726",
+            "6544d4187c5457729210d277",
+            "5947db3f86f77447880cf76f",
+            "6113d6c3290d254f5e6b27db",
+            "64785e7c19d732620e045e15",
+            "570fd6c2d2720bc6458b457f",
+            "558022b54bdc2dac148b458d",
+            "5c07dd120db834001c39092d",
+            "5c0a2cec0db834001b7ce47d",
+            "58491f3324597764bc48fa02",
+            "584924ec24597768f12ae244",
+            "5cebec38d7f00c00110a652a",
+            "622efbcb99f4ea1a4d6c9a15",
+            "5b30b0dc5acfc400153b7124",
+            "6165ac8c290d254f5e6b2f6c",
+            "6284bd5f95250a29bc628a30",
+            "618a5d5852ecee1505530b2a",
+            "57486e672459770abd687134",
+            "570fd79bd2720bc7458b4583",
+            "6477772ea8a38bb2050ed4db",
+            "60a23797a37c940de7062d02",
+            "62ff9920fe938a24c90c10d2",
+            "5d2da1e948f035477b1ce2ba",
+            "609a63b6e2ff132951242d09",
+            "5c0505e00db834001b735073",
+            "584984812459776a704a82a6",
+            "609b9e31506cf869cf3eaf41",
+            "59f9d81586f7744c7506ee62",
+            "570fd721d2720bc5458b4596",
+            "655f13e0a246670fb0373245"
+          ],
+          "value": 5,
+          "visibilityConditions": []
+        }
+        ,{
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Legs_Unlock I_0",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5c7d55de2e221644f31bff68",
+            "61659f79d92c473c770213ee",
+            "591c4efa86f7741030027726",
+            "6544d4187c5457729210d277",
+            "5947db3f86f77447880cf76f",
+            "6113d6c3290d254f5e6b27db",
+            "64785e7c19d732620e045e15",
+            "570fd6c2d2720bc6458b457f",
+            "558022b54bdc2dac148b458d",
+            "5c07dd120db834001c39092d",
+            "5c0a2cec0db834001b7ce47d",
+            "58491f3324597764bc48fa02",
+            "584924ec24597768f12ae244",
+            "5cebec38d7f00c00110a652a",
+            "622efbcb99f4ea1a4d6c9a15",
+            "5b30b0dc5acfc400153b7124",
+            "6165ac8c290d254f5e6b2f6c",
+            "6284bd5f95250a29bc628a30",
+            "618a5d5852ecee1505530b2a",
+            "57486e672459770abd687134",
+            "570fd79bd2720bc7458b4583",
+            "6477772ea8a38bb2050ed4db",
+            "60a23797a37c940de7062d02",
+            "62ff9920fe938a24c90c10d2",
+            "5d2da1e948f035477b1ce2ba",
+            "609a63b6e2ff132951242d09",
+            "5c0505e00db834001b735073",
+            "584984812459776a704a82a6",
+            "609b9e31506cf869cf3eaf41",
+            "59f9d81586f7744c7506ee62",
+            "570fd721d2720bc5458b4596",
+            "655f13e0a246670fb0373245"
+          ],
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Legs_Unlock start_0",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+            "availableAfter": 0,
+            "conditionType": "Quest",
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "Legs_UnlockStart_1",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "5ac23c6186f7741247042bad",
+            "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "Legs_Unlock declinePlayerMessage",
+    "description": "Legs_Unlock description",
+    "failMessageText": "Legs_Unlock failMessageText",
+    "image": "/files/quest/icon/House_Hooligan.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Legs_Unlock name",
+    "note": "Legs_Unlock note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Legs_Unlock reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "10000"
+        },
+        {
+          "id": "5d78c49786f7745041358b58",
+          "index": 1,
+          "target": "Legs",
+          "type": "TraderUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Legs_Unlock startedMessageText",
+    "successMessageText": "Legs_Unlock successMessageText",
+    "traderId": "5a7c2eca46aef81a7ca2145d",
+    "type": "PickUp"
+  },
+    "Legs_Intro": {
+        "QuestName": "Introductions",
+        "_id": "Legs_Intro",
+        "acceptPlayerMessage": "Legs_Intro acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "Legs_Intro changeQuestMessageText",
+        "completePlayerMessage": "Legs_Intro completePlayerMessage",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "conditionType": "FindItem",
+              "countInRaid": false,
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_intro I_2",
+              "index": 0,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "583990e32459771419544dd2",
+                "57dc2fa62459775949412633",
+                "5839a40f24597726f856b511",
+                "5ac66d9b5acfc4001633997a",
+                "5bf3e03b0db834001d2c4a9c",
+                "6499849fc93611967b034949",
+                "5644bd2b4bdc2d3b4c8b4572",
+                "5ab8e9fcd8ce870019439434",
+                "5bf3e0490db83400196199af",
+                "5ac4cd105acfc40016339859"
+              ],
+              "value": 3,
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "HandoverItem",
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_intro I_0",
+              "index": 1,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "583990e32459771419544dd2",
+                "57dc2fa62459775949412633",
+                "5839a40f24597726f856b511",
+                "5ac66d9b5acfc4001633997a",
+                "5bf3e03b0db834001d2c4a9c",
+                "6499849fc93611967b034949",
+                "5644bd2b4bdc2d3b4c8b4572",
+                "5ab8e9fcd8ce870019439434",
+                "5bf3e0490db83400196199af",
+                "5ac4cd105acfc40016339859"
+              ],
+              "value": 3,
+              "visibilityConditions": []
+            }
+          ],
+          "AvailableForStart": [
+            {
+              "compareMethod": ">=",
+              "conditionType": "Level",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_Intro start_0",
+              "index": 0,
+              "parentId": "",
+              "value": 1,
+              "visibilityConditions": []
+            },
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_IntroStart_1",
+                "index": 1,
+                "parentId": "",
+                "status": [
+                  4
+                ],
+                "target": "Legs_Unlock",
+                "visibilityConditions": []
+            }
+          ],
+          "Fail": []
+        },
+        "declinePlayerMessage": "Legs_Intro declinePlayerMessage",
+        "description": "Legs_Intro description",
+        "failMessageText": "Legs_Intro failMessageText",
+        "image": "/files/quest/icon/House_Intro.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "Legs_Intro name",
+        "note": "Legs_Intro note",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "Legs_intro reward_0",
+              "index": 0,
+              "type": "Experience",
+              "value": "10000"
+            },
+            {
+              "id": "Legs_Intro reward_1",
+              "index": 1,
+              "target": "Legs",
+              "type": "TraderStanding",
+              "value": "0.2"
+            }		
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "Legs_Intro startedMessageText",
+        "successMessageText": "Legs_Intro successMessageText",
+        "traderId": "Legs",
+        "type": "PickUp"
+      },
+
+      "Legs_ScavHunt" : {
+        "QuestName": "Hooligan Hunt",
+        "_id": "Legs_ScavHunt",
+        "acceptPlayerMessage": "Legs_ScavHunt acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "Legs_ScavHunt changeQuestMessageText",
+        "completePlayerMessage": "Legs_ScavHunt completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions":[
+                            {
+                            "bodyPart": [],
+                            "compareMethod": ">=",
+                            "conditionType": "Kills",
+                            "daytime": {
+                              "from": 0,
+                              "to": 0
+                            },
+                            "distance": {
+                              "compareMethod": ">=",
+                              "value": 0
+                            },
+                            "dynamicLocale": false,
+                            "enemyEquipmentExclusive": [],
+                            "enemyEquipmentInclusive": [],
+                            "enemyHealthEffects": [],
+                            "id": "Legs_ScavHunt Task_1.1",
+                            "resetOnSessionEnd": false,
+                            "savageRole": [],
+                            "target": "Savage",
+                            "value": 1,
+                            "weapon": [],
+                            "weaponCaliber": [],
+                            "weaponModsExclusive": [],
+                            "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "Legs_ScavHunt Task_1.2"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_ScavHunt Task_1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 5,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_ScavHunt Start_0",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 1,
+                    "visibilityConditions": []   
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_ScavHunt Start_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                      4
+                    ],
+                    "target": "Legs_Intro",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail":[]
+        },
+        "declinePlayerMessage": "Legs_ScavHunt declinePlayerMessage",
+        "description": "Legs_ScavHunt description",
+        "failMessageText": "Legs_ScavHunt failMessageText",
+        "image": "/files/quest/icon/House_Hooligan.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "Legs_ScavHunt name",
+        "note": "Legs_ScavHunt note",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "Legs_ScavHunt reward_0",
+              "index": 0,
+              "type": "Experience",
+              "value": "11500"
+            },
+            {
+              "id": "Legs_ScavHunt reward_1",
+              "index": 1,
+              "target": "Legs",
+              "type": "TraderStanding",
+              "value": "0.2"
+            },		
+            {
+              "findInRaid": true,
+              "id": "Legs_ScavHunt reward_2",
+              "index": 2,
+              "items": [
+                {
+                  "_id": "Legs_ScavHunt reward_2_0",
+                  "_tpl": "5449016a4bdc2d6f028b456f",
+                  "upd": {
+                    "StackObjectsCount": 25000
+                  }
+                }
+              ],
+              "target": "Legs_ScavHunt reward_2_0",
+              "type": "Item",
+              "value": "25000"
+            }
+        ]
+    },
+    "secretQuest":false,
+    "side": "Pmc",
+    "startedMessageText": "Legs_ScavHunt startedMessageText",
+    "successMessageText": "Legs_ScavHunt successMessageText",
+    "traderId": "Legs",
+    "type": "Elimination"
+    },
+
+    "Legs_AR": {
+        "QuestName": "AR Lover",
+        "_id": "Legs_AR",
+        "acceptPlayerMessage": "Legs_AR acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "Legs_AR changeQuestMessageText",
+        "completePlayerMessage": "Legs_AR completePlayerMessage",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "conditionType": "FindItem",
+              "countInRaid": false,
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "LegsAR Task_1",
+              "index": 0,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "5c07c60e0db834002330051f"
+              ],
+              "value": 2,
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "HandoverItem",
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "LegsAR Task_2",
+              "index": 0,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "5c07c60e0db834002330051f"
+              ],
+              "value": 2,
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "FindItem",
+              "countInRaid": false,
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "LegsAR Task_3",
+              "index": 0,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "5447a9cd4bdc2dbd208b4567"
+              ],
+              "value": 2,
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "HandoverItem",
+              "dogtagLevel": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "LegsAR Task_4",
+              "index": 0,
+              "isEncoded": false,
+              "maxDurability": 100,
+              "minDurability": 0,
+              "onlyFoundInRaid": true,
+              "parentId": "",
+              "target": [
+                "5447a9cd4bdc2dbd208b4567"
+              ],
+              "value": 2,
+              "visibilityConditions": []
+            }
+          ],
+          "AvailableForStart": [
+            {
+                "compareMethod": ">=",
+                "conditionType": "Level",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_AR Start_0",
+                "index": 0,
+                "parentId": "",
+                "value": 1,
+                "visibilityConditions": []   
+            },
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_AR Start_1",
+                "index": 1,
+                "parentId": "",
+                "status": [
+                  4
+                ],
+                "target": "Legs_ScavHunt",
+                "visibilityConditions": []
+            }
+          ],
+          "Fail": []
+        },
+        "declinePlayerMessage": "Legs_AR declinePlayerMessage",
+        "description": "Legs_AR description",
+        "failMessageText": "Legs_AR failMessageText",
+        "image": "/files/quest/icon/House_AR.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "Legs_AR name",
+        "note": "Legs_AR note",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "Legs_AR reward_0",
+              "index": 0,
+              "type": "Experience",
+              "value": "10000"
+            },
+            {
+              "id": "Legs_AR reward_1",
+              "index": 1,
+              "target": "Legs",
+              "type": "TraderStanding",
+              "value": "0.2"
+            },		
+            {
+              "findInRaid": true,
+              "id": "Legs_AR reward_3",
+              "index": 2,
+              "items": [
+                {
+                  "_id": "Legs_AR reward_3_0",
+                  "_tpl": "5c07c60e0db834002330051f",
+                  "upd": {
+                    "StackObjectsCount": 1
+                  }
+                }
+              ],
+              "target": "Legs_AR reward_3_0",
+              "type": "Item",
+              "value": "1"
+            },		
+            {
+              "findInRaid": true,
+              "id": "Legs_AR reward_4",
+              "index": 2,
+              "items": [
+                {
+                  "_id": "Legs_AR reward_4_0",
+                  "_tpl": "5449016a4bdc2d6f028b456f",
+                  "upd": {
+                    "StackObjectsCount": 98372
+                  }
+                }
+              ],
+              "target": "Legs_AR reward_4_0",
+              "type": "Item",
+              "value": "25000"
+            }		
+            
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "Legs_AR startedMessageText",
+        "successMessageText": "Legs_AR successMessageText",
+        "traderId": "Legs",
+        "type": "PickUp"
+      },
+
+      "Legs_PMC1" : {
+        "QuestName": "Back To Basics",
+        "_id": "Legs_PMC1",
+        "acceptPlayerMessage": "Legs_PMC1 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "Legs_PMC1 changeQuestMessageText",
+        "completePlayerMessage": "Legs_PMC1 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions":[
+                            {
+                            "bodyPart": [],
+                            "compareMethod": ">=",
+                            "conditionType": "Kills",
+                            "daytime": {
+                              "from": 0,
+                              "to": 0
+                            },
+                            "distance": {
+                              "compareMethod": ">=",
+                              "value": 0
+                            },
+                            "dynamicLocale": false,
+                            "enemyEquipmentExclusive": [],
+                            "enemyEquipmentInclusive": [],
+                            "enemyHealthEffects": [],
+                            "id": "Legs_PMC1 Task_1.1",
+                            "resetOnSessionEnd": false,
+                            "savageRole": [],
+                            "target": "AnyPmc",
+                            "value": 1,
+                            "weapon": [],
+                            "weaponCaliber": [],
+                            "weaponModsExclusive": [],
+                            "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "Legs_PMC1 Task_1.2"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_PMC1 Task_1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_PMC1 Start_0",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 1,
+                    "visibilityConditions": []   
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "Legs_PMC1 Start_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                      4
+                    ],
+                    "target": "Legs_AR",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail":[]
+        },
+        "declinePlayerMessage": "Legs_PMC1 declinePlayerMessage",
+        "description": "Legs_PMC1 description",
+        "failMessageText": "Legs_PMC1 failMessageText",
+        "image": "/files/quest/icon/House_PMC.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "Legs_PMC1 name",
+        "note": "Legs_PMC1 note",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "Legs_PMC1 reward_0",
+              "index": 0,
+              "type": "Experience",
+              "value": "11500"
+            },
+            {
+              "id": "Legs_PMC1 reward_1",
+              "index": 1,
+              "target": "Legs",
+              "type": "TraderStanding",
+              "value": "0.1"
+            },		
+            {
+              "findInRaid": true,
+              "id": "Legs_PMC1 reward_2",
+              "index": 2,
+              "items": [
+                {
+                  "_id": "Legs_PMC1 reward_2_0",
+                  "_tpl": "5449016a4bdc2d6f028b456f",
+                  "upd": {
+                    "StackObjectsCount": 49560
+                  }
+                }
+              ],
+              "target": "Legs_PMC1 reward_2_0",
+              "type": "Item",
+              "value": "49560"
+            },		
+            {
+              "findInRaid": true,
+              "id": "Legs_PMC1 reward_3",
+              "index": 2,
+              "items": [
+                {
+                  "_id": "Legs_PMC1 reward_3_0",
+                  "_tpl": "5447a9cd4bdc2dbd208b4567",
+                  "upd": {
+                    "StackObjectsCount": 2
+                  }
+                }
+              ],
+              "target": "Legs_PMC1 reward_3_0",
+              "type": "Item",
+              "value": "2"
+            }
+        ]
+    },
+    "secretQuest":false,
+    "side": "Pmc",
+    "startedMessageText": "Legs_PMC1 startedMessageText",
+    "successMessageText": "Legs_PMC1 successMessageText",
+    "traderId": "Legs",
+    "type": "Elimination"
+    },
+
+    "Legs_DMR" : {
+      "QuestName": "Advantage of Range",
+      "_id": "Legs_DMR",
+      "acceptPlayerMessage": "Legs_DMR acceptPlayerMessage",
+      "canShowNotificationsInGame": true,
+      "changeQuestMessageText": "Legs_DMR changeQuestMessageText",
+      "completePlayerMessage": "Legs_DMR completePlayerMessage",
+      "conditions": {
+          "AvailableForFinish": [
+              {
+                  "completeInSeconds": 0,
+                  "conditionType": "CounterCreator",
+                  "counter": {
+                      "conditions":[
+                          {
+                          "bodyPart": ["Head"],
+                          "compareMethod": ">=",
+                          "conditionType": "Kills",
+                          "daytime": {
+                            "from": 0,
+                            "to": 0
+                          },
+                          "distance": {
+                            "compareMethod": ">=",
+                            "value": 0
+                          },
+                          "dynamicLocale": false,
+                          "enemyEquipmentExclusive": [],
+                          "enemyEquipmentInclusive": [],
+                          "enemyHealthEffects": [],
+                          "id": "Legs_DMR Task_1.1",
+                          "resetOnSessionEnd": false,
+                          "savageRole": [],
+                          "target": "AnyPmc",
+                          "value": 1,
+                          "weapon": ["6176aca650224f204c1da3fb",
+                          "5a367e5dc4a282000e49738f",
+                          "5df8ce05b11454561e39243b",
+                          "5aafa857e5b5b00018480968",
+                          "5c46fbd72e2216398b5a8c9c",
+                          "5fc22d7c187fea44d52eda44",
+                          "57838ad32459774a17445cd2"],
+                          "weaponCaliber": [],
+                          "weaponModsExclusive": [],
+                          "weaponModsInclusive": []
+                          }
+                      ],
+                      "id": "Legs_DMR Task_1.2"
+                  },
+                  "doNotResetIfCounterCompleted": false,
+                  "dynamicLocale": false,
+                  "globalQuestCounterId": "",
+                  "id": "Legs_DMR Task_1",
+                  "index": 0,
+                  "oneSessionOnly": false,
+                  "parentId": "",
+                  "type": "Elimination",
+                  "value": 5,
+                  "visibilityConditions": []
+              }
+          ],
+          "AvailableForStart": [
+              {
+                  "compareMethod": ">=",
+                  "conditionType": "Level",
+                  "dynamicLocale": false,
+                  "globalQuestCounterId": "",
+                  "id": "Legs_DMR Start_0",
+                  "index": 0,
+                  "parentId": "",
+                  "value": 1,
+                  "visibilityConditions": []   
+              },
+              {
+                  "availableAfter": 0,
+                  "conditionType": "Quest",
+                  "dynamicLocale": false,
+                  "globalQuestCounterId": "",
+                  "id": "Legs_DMR Start_1",
+                  "index": 2,
+                  "parentId": "",
+                  "status": [
+                    4
+                  ],
+                  "target": "Legs_AR",
+                  "visibilityConditions": []
+              }
+          ],
+          "Fail":[]
+      },
+      "declinePlayerMessage": "Legs_DMR declinePlayerMessage",
+      "description": "Legs_DMR description",
+      "failMessageText": "Legs_DMR failMessageText",
+      "image": "/files/quest/icon/House_DMR.png",
+      "instantComplete": false,
+      "isKey": false,
+      "location": "any",
+      "name": "Legs_DMR name",
+      "note": "Legs_DMR note",
+      "restartable": false,
+      "rewards": {
+        "Fail": [],
+        "Started": [
+          {
+          "findInRaid": true,
+          "id": "Legs_DMR SVD",
+          "index": 1,
+          "items": [
+            {
+              "_id": "Legs_DMR SVD_1",
+              "_tpl": "5c46fbd72e2216398b5a8c9c",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "StackObjectsCount": 2
+              }
+            },
+            {
+              "_id": "Legs_DMR SVD_Grip",
+              "_tpl": "5c471be12e221602b66cd9ac",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "Legs_DMR SVD_Mag",
+              "_tpl": "5c471c442e221602b542a6f8",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "Legs_DMR SVD_Stock",
+              "_tpl": "5c471b5d2e221602b21d4e14",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "Legs_DMR SVD_Barrel",
+              "_tpl": "5c471cb32e221602b177afaa",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "Legs_DMR SVD_Cover",
+              "_tpl": "5c471bd12e221602b4129c3a",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "Legs_DMR SVD_Gas",
+              "_tpl": "5c471c842e221615214259b5",
+              "parentId": "Legs_DMR SVD_Barrel",
+              "slotId": "mod_gas_block"
+            },
+            {
+              "_id": "Legs_DMR SVD_UpperBand",
+              "_tpl": "5c471c2d2e22164bef5d077f",
+              "parentId": "Legs_DMR SVD_1",
+              "slotId": "mod_mount_001"
+            },
+            {
+              "_id": "Legs_DMR SVD_Handgaurd",
+              "_tpl": "5c471c6c2e221602b66cd9ae",
+              "parentId": "Legs_DMR SVD_UpperBand",
+              "slotId": "mod_handguard"
+            },
+            {
+              "_id": "Legs_DMR SVD_Front",
+              "_tpl": "5c471bfc2e221602b21d4e17",
+              "parentId": "Legs_DMR SVD_Barrel",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "Legs_DMR SVD_RearSight",
+              "_tpl": "5c471b7e2e2216152006e46c",
+              "parentId": "Legs_DMR SVD_UpperBand",
+              "slotId": "mod_sight_rear"
+            },
+            {
+              "_id": "Legs_DMR SVD_FrontSight",
+              "_tpl": "5c471ba12e221602b3137d76",
+              "parentId": "Legs_DMR SVD_Front",
+              "slotId": "mod_sight_front"
+            }
+          ],
+          "target": "Legs_DMR SVD_1",
+          "type": "Item",
+          "value": "2"
+        }
+      ],
+        "Success": [
+          {
+            "id": "Legs_DMR reward_0",
+            "index": 0,
+            "type": "Experience",
+            "value": "15302"
+          },
+          {
+            "id": "Legs_DMR reward_1",
+            "index": 1,
+            "target": "Legs",
+            "type": "TraderStanding",
+            "value": "0.5"
+          },		
+          {
+            "findInRaid": true,
+            "id": "Legs_DMR reward_2",
+            "index": 2,
+            "items": [
+              {
+                "_id": "Legs_DMR reward_2_0",
+                "_tpl": "5449016a4bdc2d6f028b456f",
+                "upd": {
+                  "StackObjectsCount": 99583
+                }
+              }
+            ],
+            "target": "Legs_DMR reward_2_0",
+            "type": "Item",
+            "value": "99583"
+          },		
+          {
+            "findInRaid": true,
+            "id": "Legs_DMR reward_3",
+            "index": 2,
+            "items": [
+              {
+                "_id": "Legs_DMR reward_3_0",
+                "_tpl": "5c46fbd72e2216398b5a8c9c",
+                "upd": {
+                  "StackObjectsCount": 2
+                }
+              }
+            ],
+            "target": "Legs_DMR reward_3_0",
+            "type": "Item",
+            "value": "2"
+          },
+          {
+            "id": "Legs_DMR reward_4",
+            "index": 3,
+            "items": [
+              {
+                "_id": "SVD_Reward",
+                "_tpl": "5c46fbd72e2216398b5a8c9c"
+              }
+            ],
+            "loyaltyLevel": 2,
+            "target": "SVD_Reward",
+            "traderId": "Legs",
+            "type": "AssortmentUnlock"
+          },
+          {
+            "id": "Legs_DMR reward_5",
+            "index": 4,
+            "items": [
+              {
+                "_id": "VSS_Reward",
+                "_tpl": "57838ad32459774a17445cd2"
+              }
+            ],
+            "loyaltyLevel": 2,
+            "target": "VSS_Reward",
+            "traderId": "Legs",
+            "type": "AssortmentUnlock"
+          }
+      ]
+  },
+  "secretQuest":false,
+  "side": "Pmc",
+  "startedMessageText": "Legs_DMR startedMessageText",
+  "successMessageText": "Legs_DMR successMessageText",
+  "traderId": "Legs",
+  "type": "Elimination"
+  },
+
+  "Legs_ScavHunt_Part2" : {
+    "QuestName": "Hooligan Hunt - Part 2",
+    "_id": "Legs_ScavHunt_Part2",
+    "acceptPlayerMessage": "Legs_ScavHunt_Part2 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Legs_ScavHunt_Part2 changeQuestMessageText",
+    "completePlayerMessage": "Legs_ScavHunt_Part2 completePlayerMessage",
+    "conditions": {
+        "AvailableForFinish": [
+            {
+                "completeInSeconds": 0,
+                "conditionType": "CounterCreator",
+                "counter": {
+                    "conditions":[
+                        {
+                        "bodyPart": [],
+                        "compareMethod": ">=",
+                        "conditionType": "Kills",
+                        "daytime": {
+                          "from": 0,
+                          "to": 0
+                        },
+                        "distance": {
+                          "compareMethod": ">=",
+                          "value": 0
+                        },
+                        "dynamicLocale": false,
+                        "enemyEquipmentExclusive": [],
+                        "enemyEquipmentInclusive": [],
+                        "enemyHealthEffects": [],
+                        "id": "Legs_ScavHunt_Part2 Task_1.1",
+                        "resetOnSessionEnd": false,
+                        "savageRole": [],
+                        "target": "Savage",
+                        "value": 1,
+                        "weapon": [],
+                        "weaponCaliber": [],
+                        "weaponModsExclusive": [],
+                        "weaponModsInclusive": []
+                        }
+                    ],
+                    "id": "Legs_ScavHunt_Part2 Task_1.2"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_ScavHunt_Part2 Task_1",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "Elimination",
+                "value": 15,
+                "visibilityConditions": []
+            }
+        ],
+        "AvailableForStart": [
+            {
+                "compareMethod": ">=",
+                "conditionType": "Level",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_ScavHunt_Part2 Start_0",
+                "index": 0,
+                "parentId": "",
+                "value": 1,
+                "visibilityConditions": []   
+            },
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_ScavHunt_Part2 Start_1",
+                "index": 1,
+                "parentId": "",
+                "status": [
+                  4
+                ],
+                "target": "Legs_AR",
+                "visibilityConditions": []
+            },
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_ScavHunt_Part2 Start_2",
+                "index": 2,
+                "parentId": "",
+                "status": [
+                  4
+                ],
+                "target": "Legs_DMR",
+                "visibilityConditions": []
+            }
+        ],
+        "Fail":[]
+    },
+    "declinePlayerMessage": "Legs_ScavHunt_Part2 declinePlayerMessage",
+    "description": "Legs_ScavHunt_Part2 description",
+    "failMessageText": "Legs_ScavHunt_Part2 failMessageText",
+    "image": "/files/quest/icon/House_Hooligan.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Legs_ScavHunt_Part2 name",
+    "note": "Legs_ScavHunt_Part2 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Legs_ScavHunt_Part2 reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "15023"
+        },
+        {
+          "id": "Legs_ScavHunt_Part2 reward_1",
+          "index": 1,
+          "target": "Legs",
+          "type": "TraderStanding",
+          "value": "0.2"
+        },		
+        {
+          "findInRaid": true,
+          "id": "Legs_ScavHunt_Part2 reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Legs_ScavHunt_Part2 reward_2_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 75000
+              }
+            }
+          ],
+          "target": "Legs_ScavHunt_Part2 reward_2_0",
+          "type": "Item",
+          "value": "75000"
+        }
+    ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_ScavHunt_Part2 startedMessageText",
+"successMessageText": "Legs_ScavHunt_Part2 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+"Legs_BOSS_Hooligan" : {
+  "QuestName": "Hooligan Hunt - Part 3",
+  "_id": "Legs_BOSS_Hooligan",
+  "acceptPlayerMessage": "Legs_BOSS_Hooligan acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "Legs_BOSS_Hooligan changeQuestMessageText",
+  "completePlayerMessage": "Legs_BOSS_Hooligan completePlayerMessage",
+  "conditions": {
+      "AvailableForFinish": [
+          {
+              "completeInSeconds": 0,
+              "conditionType": "CounterCreator",
+              "counter": {
+                  "conditions":[
+                      {
+                      "bodyPart": [],
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "daytime": {
+                        "from": 0,
+                        "to": 0
+                      },
+                      "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                      },
+                      "dynamicLocale": false,
+                      "enemyEquipmentExclusive": [],
+                      "enemyEquipmentInclusive": [],
+                      "enemyHealthEffects": [],
+                      "id": "Legs_BOSS_Hooligan Task_1.1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": ["bossBully"],
+                      "target": "Savage",
+                      "value": 1,
+                      "weapon": [],
+                      "weaponCaliber": [],
+                      "weaponModsExclusive": [],
+                      "weaponModsInclusive": []
+                      }
+                  ],
+                  "id": "Legs_BOSS_Hooligan Task_1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS_Hooligan Task_1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": 1,
+              "visibilityConditions": []
+          }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Legs_BOSS_Hooligan Start_1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "Legs_ScavHunt_Part2",
+          "visibilityConditions": []
+      }
+          
+      ],
+      "Fail":[]
+  },
+  "declinePlayerMessage": "Legs_BOSS_Hooligan declinePlayerMessage",
+  "description": "Legs_BOSS_Hooligan description",
+  "failMessageText": "Legs_BOSS_Hooligan failMessageText",
+  "image": "/files/quest/icon/House_Hooligan.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "Legs_BOSS_Hooligan name",
+  "note": "Legs_BOSS_Hooligan note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [],
+    "Success": [
+      {
+        "id": "Legs_BOSS_Hooligan reward_0",
+        "index": 0,
+        "type": "Experience",
+        "value": "12042"
+      },
+      {
+        "id": "Legs_BOSS_Hooligan reward_1",
+        "index": 1,
+        "target": "Legs",
+        "type": "TraderStanding",
+        "value": "0.1"
+      },		
+      {
+        "findInRaid": true,
+        "id": "Legs_BOSS_Hooligan reward_2",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Legs_BOSS_Hooligan reward_2_0",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "upd": {
+              "StackObjectsCount": 40303
+            }
+          }
+        ],
+        "target": "Legs_BOSS_Hooligan reward_2_0",
+        "type": "Item",
+        "value": "40303"
+      },		
+      {
+        "findInRaid": true,
+        "id": "Legs_BOSS_Hooligan reward_3",
+        "index": 3,
+        "items": [
+          {
+            "_id": "Legs_BOSS_Hooligan reward_2_0",
+            "_tpl": "5aa2ba71e5b5b000137b758f",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "target": "Legs_BOSS_Hooligan reward_2_0",
+        "type": "Item",
+        "value": "1"
+      }
+  ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_BOSS_Hooligan startedMessageText",
+"successMessageText": "Legs_BOSS_Hooligan successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+
+"Legs_Noodle": {
+    "QuestName": "Im Hungry",
+    "_id": "Legs_Noodle",
+    "acceptPlayerMessage": "Legs_Noodle acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Legs_Noodle changeQuestMessageText",
+    "completePlayerMessage": "Legs_Noodle completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "Legs_Noodle Task_1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "656df4fec921ad01000481a2"
+          ],
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+            "compareMethod": ">=",
+            "conditionType": "Level",
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "Legs_Noodle Start_0",
+            "index": 0,
+            "parentId": "",
+            "value": 1,
+            "visibilityConditions": []   
+        },
+        {
+            "availableAfter": 0,
+            "conditionType": "Quest",
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "Legs_Noodle Start_1",
+            "index": 1,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "Legs_BOSS_Hooligan",
+            "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "Legs_Noodle declinePlayerMessage",
+    "description": "Legs_Noodle description",
+    "failMessageText": "Legs_Noodle failMessageText",
+    "image": "/files/quest/icon/House_Hooligan.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Legs_Noodle name",
+    "note": "Legs_Noodle note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "Legs_Noodle reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "13023"
+        },
+        {
+          "id": "Legs_Noodle reward_1",
+          "index": 1,
+          "target": "Legs",
+          "type": "TraderStanding",
+          "value": "0.1"
+        },	
+        {
+          "findInRaid": true,
+          "id": "Legs_Noodle reward_4",
+          "index": 2,
+          "items": [
+            {
+              "_id": "Legs_Noodle reward_4_0",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 98372
+              }
+            }
+          ],
+          "target": "Legs_Noodle reward_4_0",
+          "type": "Item",
+          "value": "35895"
+        },	
+        {
+          "findInRaid": true,
+          "id": "Legs_Noodle reward_5",
+          "index": 3,
+          "items": [
+            {
+              "_id": "Legs_Noodle reward_5_0",
+              "_tpl": "628e4e576d783146b124c64d",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "Legs_Noodle reward_5_0",
+          "type": "Item",
+          "value": "1"
+        }				
+        
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "Legs_Noodle startedMessageText",
+    "successMessageText": "Legs_Noodle successMessageText",
+    "traderId": "Legs",
+    "type": "PickUp"
+  },
+  
+  "Legs_BOSS2" : {
+    "QuestName": "Apex Predator - Part 1",
+    "_id": "Legs_BOSS2",
+    "acceptPlayerMessage": "Legs_BOSS2 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "Legs_BOSS2 changeQuestMessageText",
+    "completePlayerMessage": "Legs_BOSS2 completePlayerMessage",
+    "conditions": {
+        "AvailableForFinish": [
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "conditionType": "Kills",
+                    "dynamicLocale": false,
+                    "id": "Legs_BOSS2 Task1.1",
+                    "savageRole": [
+                      "bossKilla"
+                    ],
+                    "target": "Savage"
+                  }
+                ],
+                "id": "Legs_BOSS2 Task1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS2 Task_1",
+              "index": 2,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": "1",
+              "visibilityConditions": []
+            }
+        ],
+        "AvailableForStart": [
+            {
+                "compareMethod": ">=",
+                "conditionType": "Level",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_BOSS2 Start_0",
+                "index": 0,
+                "parentId": "",
+                "value": 1,
+                "visibilityConditions": []   
+            },
+            {
+                "availableAfter": 0,
+                "conditionType": "Quest",
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "Legs_BOSS2 Start_1",
+                "index": 1,
+                "parentId": "",
+                "status": [
+                  4
+                ],
+                "target": "Legs_Noodle",
+                "visibilityConditions": []
+            }
+        ],
+        "Fail":[]
+    },
+    "declinePlayerMessage": "Legs_BOSS2 declinePlayerMessage",
+    "description": "Legs_BOSS2 description",
+    "failMessageText": "Legs_BOSS2 failMessageText",
+    "image": "/files/quest/icon/House_Apex_Predator.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "Legs_BOSS2 name",
+    "note": "Legs_BOSS2 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+        "findInRaid": true,
+        "id": "Legs_BOSS2 Mutant",
+        "index": 1,
+        "items": [
+          {
+            "_id": "Legs_BOSS2 Mutant_1",
+            "_tpl": "606587252535c57a13424cfd",
+            "upd": {
+              "FireMode": {
+                "FireMode": "single"
+              },
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Grip",
+            "_tpl": "6113cc78d3a39d50044c065a",
+            "parentId": "Legs_BOSS2 Mutant_1",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Mag",
+            "_tpl": "59d6272486f77466146386ff",
+            "parentId": "Legs_BOSS2 Mutant_1",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Stock",
+            "_tpl": "5d120a10d7ad1a4e1026ba85",
+            "parentId": "Legs_BOSS2 Mutant_1",
+            "slotId": "mod_stock_001"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Cover",
+            "_tpl": "606587a88900dc2d9a55b659",
+            "parentId": "Legs_BOSS2 Mutant_1",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Barrel",
+            "_tpl": "6065878ac9cf8012264142fd",
+            "parentId": "Legs_BOSS2 Mutant_Cover",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Charger",
+            "_tpl": "606587bd6d0bd7580617bacc",
+            "parentId": "Legs_BOSS2 Mutant_1",
+            "slotId": "mod_charge"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Scope",
+            "_tpl": "5d1b5e94d7ad1a2b865a96b0",
+            "parentId": "Legs_BOSS2 Mutant_Cover",
+            "slotId": "mod_scope"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Handgaurd",
+            "_tpl": "5d00ede1d7ad1a0940739a76",
+            "parentId": "Legs_BOSS2 Mutant_Cover",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Gas",
+            "_tpl": "6065dc8a132d4d12c81fd8e3",
+            "parentId": "Legs_BOSS2 Mutant_Barrel",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "Legs_BOSS2 Mutant_Muzzle",
+            "_tpl": "5b7d693d5acfc43bca706a3d",
+            "parentId": "Legs_BOSS2 Mutant_Barrel",
+            "slotId": "mod_muzzle"
+          }
+        ],
+        "target": "Legs_BOSS2 Mutant_1",
+        "type": "Item",
+        "value": "1"
+      }
+    ],
+      "Success": [
+        {
+          "id": "Legs_BOSS2 reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "21033"
+        },
+        {
+          "id": "Legs_BOSS2 reward_1",
+          "index": 1,
+          "target": "Legs",
+          "type": "TraderStanding",
+          "value": "0.2"
+        },	
+        {
+          "id": "Legs_BOSS2 reward_4",
+          "index": 2,
+          "items": [
+            {
+              "_id": "AK545_Reward",
+              "_tpl": "628b5638ad252a16da6dd245"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "AK545_Reward",
+          "traderId": "Legs",
+          "type": "AssortmentUnlock"
+        },
+        {
+          "id": "Legs_BOSS2 reward_5",
+          "index": 3,
+          "items": [
+            {
+              "_id": "AK545_Reward2",
+              "_tpl": "628b9c37a733087d0d7fe84b"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "AK545_Reward2",
+          "traderId": "Legs",
+          "type": "AssortmentUnlock"
+        }
+    ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_BOSS2 startedMessageText",
+"successMessageText": "Legs_BOSS2 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+
+"Legs_DMR_Part2" : {
+  "QuestName": "Advantage of Range - Part 2",
+  "_id": "Legs_DMR_Part2",
+  "acceptPlayerMessage": "Legs_DMR_Part2 acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "Legs_DMR_Part2 changeQuestMessageText",
+  "completePlayerMessage": "Legs_DMR_Part2 completePlayerMessage",
+  "conditions": {
+      "AvailableForFinish": [
+          {
+              "completeInSeconds": 0,
+              "conditionType": "CounterCreator",
+              "counter": {
+                  "conditions":[
+                      {
+                      "bodyPart": ["Head"],
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "daytime": {
+                        "from": 0,
+                        "to": 0
+                      },
+                      "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                      },
+                      "dynamicLocale": false,
+                      "enemyEquipmentExclusive": [],
+                      "enemyEquipmentInclusive": [],
+                      "enemyHealthEffects": [],
+                      "id": "Legs_DMR_Part2 Task_1.1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": [],
+                      "target": "AnyPmc",
+                      "value": 1,
+                      "weapon": ["6176aca650224f204c1da3fb",
+                      "5a367e5dc4a282000e49738f",
+                      "5df8ce05b11454561e39243b",
+                      "5aafa857e5b5b00018480968",
+                      "5c46fbd72e2216398b5a8c9c",
+                      "5fc22d7c187fea44d52eda44",
+                      "57838ad32459774a17445cd2"],
+                      "weaponCaliber": [],
+                      "weaponModsExclusive": [],
+                      "weaponModsInclusive": []
+                      }
+                  ],
+                  "id": "Legs_DMR_Part2 Task_1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_DMR_Part2 Task_1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": 15,
+              "visibilityConditions": []
+          }
+      ],
+      "AvailableForStart": [
+          {
+              "compareMethod": ">=",
+              "conditionType": "Level",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_DMR_Part2 Start_0",
+              "index": 0,
+              "parentId": "",
+              "value": 1,
+              "visibilityConditions": []   
+          },
+          {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_DMR_Part2 Start_1",
+              "index": 2,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "Legs_BOSS2",
+              "visibilityConditions": []
+          }
+      ],
+      "Fail":[]
+  },
+  "declinePlayerMessage": "Legs_DMR_Part2 declinePlayerMessage",
+  "description": "Legs_DMR_Part2 description",
+  "failMessageText": "Legs_DMR_Part2 failMessageText",
+  "image": "/files/quest/icon/House_DMR.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "Legs_DMR_Part2 name",
+  "note": "Legs_DMR_Part2 note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [
+      {
+      "findInRaid": true,
+      "id": "Legs_DMR_Part2 RSASS",
+      "index": 1,
+      "items": [
+        {
+          "_id": "Legs_DMR_Part2 RSASS_1",
+          "_tpl": "5a367e5dc4a282000e49738f",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            },
+            "StackObjectsCount": 1
+          }
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Grip",
+          "_tpl": "57af48872459771f0b2ebf11",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Mag",
+          "_tpl": "65293c38fc460e50a509cb25",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Stock",
+          "_tpl": "5947eab886f77475961d96c5",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_stock"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Barrel",
+          "_tpl": "5a34fae7c4a2826c6e06d760",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Gas",
+          "_tpl": "5dfa3d45dfc58d14537c20b0",
+          "parentId": "Legs_DMR_Part2 RSASS_Barrel",
+          "slotId": "mod_gas_block"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Handgaurd",
+          "_tpl": "5df916dfbb49d91fb446d6b9",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Scope",
+          "_tpl": "5a37ca54c4a282000d72296a",
+          "parentId": "Legs_DMR_Part2 RSASS_1",
+          "slotId": "mod_scope"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Scope_2",
+          "_tpl": "6567e7681265c8a131069b0f",
+          "parentId": "Legs_DMR_Part2 RSASS_Scope",
+          "slotId": "mod_scope_000"
+        },
+        {
+          "_id": "Legs_DMR_Part2 RSASS_Muzzle",
+          "_tpl": "5dcbe965e4ed22586443a79d",
+          "parentId": "Legs_DMR_Part2 RSASS_Barrel",
+          "slotId": "mod_muzzle"
+        }
+      ],
+      "target": "Legs_DMR_Part2 RSASS_1",
+      "type": "Item",
+      "value": "1"
+    }
+  ],
+    "Success": [
+      {
+        "id": "Legs_DMR_Part2 reward_0",
+        "index": 0,
+        "type": "Experience",
+        "value": "15302"
+      },
+      {
+        "id": "Legs_DMR_Part2 reward_1",
+        "index": 1,
+        "target": "Legs",
+        "type": "TraderStanding",
+        "value": "0.2"
+      },		
+      {
+        "findInRaid": true,
+        "id": "Legs_DMR_Part2 reward_2",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Legs_DMR_Part2 reward_2_0",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "upd": {
+              "StackObjectsCount": 150303
+            }
+          }
+        ],
+        "target": "Legs_DMR_Part2 reward_2_0",
+        "type": "Item",
+        "value": "99583"
+      },		
+      {
+        "findInRaid": true,
+        "id": "Legs_DMR_Part2 reward_3",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Legs_DMR_Part2 reward_3_0",
+            "_tpl": "5a367e5dc4a282000e49738f",
+            "upd": {
+              "StackObjectsCount": 2
+            }
+          }
+        ],
+        "target": "Legs_DMR_Part2 reward_3_0",
+        "type": "Item",
+        "value": "2"
+      },
+      {
+        "id": "Legs_DMR_Part2 reward_4",
+        "index": 3,
+        "items": [
+          {
+            "_id": "RSASS_Reward",
+            "_tpl": "5a367e5dc4a282000e49738f"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "RSASS_Reward",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "Legs_DMR_Part2 reward_5",
+        "index": 4,
+        "items": [
+          {
+            "_id": "G28_Reward",
+            "_tpl": "6176aca650224f204c1da3fb"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "G28_Reward",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "Legs_DMR_Part2 reward_6",
+        "index": 5,
+        "items": [
+          {
+            "_id": "SR25_Reward",
+            "_tpl": "5df8ce05b11454561e39243b"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "SR25_Reward",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      }
+  ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_DMR_Part2 startedMessageText",
+"successMessageText": "Legs_DMR_Part2 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+  
+"Legs_BOSS3" : {
+  "QuestName": "Apex Predator - Part 2",
+  "_id": "Legs_BOSS3",
+  "acceptPlayerMessage": "Legs_BOSS3 acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "Legs_BOSS3 changeQuestMessageText",
+  "completePlayerMessage": "Legs_BOSS3 completePlayerMessage",
+  "conditions": {
+      "AvailableForFinish": [
+          {
+              "completeInSeconds": 0,
+              "conditionType": "CounterCreator",
+              "counter": {
+                  "conditions":[
+                      {
+                      "bodyPart": [],
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "daytime": {
+                        "from": 0,
+                        "to": 0
+                      },
+                      "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                      },
+                      "dynamicLocale": false,
+                      "enemyEquipmentExclusive": [],
+                      "enemyEquipmentInclusive": [],
+                      "enemyHealthEffects": [],
+                      "id": "Legs_BOSS3 Task_1.1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": ["bossTagilla"],
+                      "target": "Savage",
+                      "value": 1,
+                      "weapon": [],
+                      "weaponCaliber": [],
+                      "weaponModsExclusive": [],
+                      "weaponModsInclusive": []
+                      }
+                  ],
+                  "id": "Legs_BOSS3 Task_1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS3 Task_1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": 1,
+              "visibilityConditions": []
+          
+    }
+      ],
+      "AvailableForStart": [
+          {
+              "compareMethod": ">=",
+              "conditionType": "Level",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS3 Start_0",
+              "index": 0,
+              "parentId": "",
+              "value": 1,
+              "visibilityConditions": []   
+          },
+          {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS3 Start_1",
+              "index": 1,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "Legs_DMR_Part2",
+              "visibilityConditions": []
+          }
+      ],
+      "Fail":[]
+  },
+  "declinePlayerMessage": "Legs_BOSS3 declinePlayerMessage",
+  "description": "Legs_BOSS3 description",
+  "failMessageText": "Legs_BOSS3 failMessageText",
+  "image": "/files/quest/icon/House_Apex_Predator.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "Legs_BOSS3 name",
+  "note": "Legs_BOSS3 note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [{
+      "findInRaid": true,
+      "id": "KS",
+      "index": 1,
+      "items": [
+        {
+          "_id": "KS1",
+          "_tpl": "5e848cc2988a8701445df1e8",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            },
+            "StackObjectsCount": 1
+          }
+        },
+        {
+          "_id": "KSBarrel",
+          "_tpl": "5e848d1c264f7c180b5e35a9",
+          "parentId": "KS1",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "KSHandguard",
+          "_tpl": "5e848d51e4dbc5266a4ec63b",
+          "parentId": "KS1",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "KSMagazine",
+          "_tpl": "5f647d9f8499b57dc40ddb93",
+          "parentId": "KS1",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "KSStock",
+          "_tpl": "5e848d99865c0f329958c83b",
+          "parentId": "KS1",
+          "slotId": "mod_stock"
+        }
+      ],
+      "target": "KS1",
+      "type": "Item",
+      "value": "1"
+    }],
+    "Success": [
+      {
+        "id": "Legs_BOSS3 reward_0",
+        "index": 0,
+        "type": "Experience",
+        "value": "21033"
+      },
+      {
+        "id": "Legs_BOSS3 reward_1",
+        "index": 1,
+        "target": "Legs",
+        "type": "TraderStanding",
+        "value": "0.2"
+      },	
+      {
+        "id": "Legs_BOSS3 reward_3",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Mutant_Reward",
+            "_tpl": "606587252535c57a13424cfd"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "Mutant_Reward",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "Legs_BOSS3 reward_4",
+        "index": 3,
+        "items": [
+          {
+            "_id": "KS-23_Reward2",
+            "_tpl": "5e848cc2988a8701445df1e8"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "KS-23_Reward2",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      }
+  ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_BOSS3 startedMessageText",
+"successMessageText": "Legs_BOSS3 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+  
+"Legs_BOSS4" : {
+  "QuestName": "Apex Predator - Part 2",
+  "_id": "Legs_BOSS4",
+  "acceptPlayerMessage": "Legs_BOSS4 acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "Legs_BOSS4 changeQuestMessageText",
+  "completePlayerMessage": "Legs_BOSS4 completePlayerMessage",
+  "conditions": {
+      "AvailableForFinish": [
+          {
+              "completeInSeconds": 0,
+              "conditionType": "CounterCreator",
+              "counter": {
+                  "conditions":[
+                      {
+                      "bodyPart": [],
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "daytime": {
+                        "from": 0,
+                        "to": 0
+                      },
+                      "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                      },
+                      "dynamicLocale": false,
+                      "enemyEquipmentExclusive": [],
+                      "enemyEquipmentInclusive": [],
+                      "enemyHealthEffects": [],
+                      "id": "Legs_BOSS4 Task_1.1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": ["bossBoar"],
+                      "target": "Savage",
+                      "value": 1,
+                      "weapon": [],
+                      "weaponCaliber": [],
+                      "weaponModsExclusive": [],
+                      "weaponModsInclusive": []
+                      }
+                  ],
+                  "id": "Legs_BOSS4 Task_1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS4 Task_1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": 1,
+              "visibilityConditions": []
+          
+    }
+      ],
+      "AvailableForStart": [
+          {
+              "compareMethod": ">=",
+              "conditionType": "Level",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS4 Start_0",
+              "index": 0,
+              "parentId": "",
+              "value": 1,
+              "visibilityConditions": []   
+          },
+          {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS4 Start_1",
+              "index": 1,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "Legs_BOSS3",
+              "visibilityConditions": []
+          }
+      ],
+      "Fail":[]
+  },
+  "declinePlayerMessage": "Legs_BOSS4 declinePlayerMessage",
+  "description": "Legs_BOSS4 description",
+  "failMessageText": "Legs_BOSS4 failMessageText",
+  "image": "/files/quest/icon/House_Apex_Predator.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "Legs_BOSS4 name",
+  "note": "Legs_BOSS4 note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [],
+    "Success": [
+      {
+        "id": "Legs_BOSS4 reward_0",
+        "index": 0,
+        "type": "Experience",
+        "value": "21033"
+      },
+      {
+        "id": "Legs_BOSS4 reward_1",
+        "index": 1,
+        "target": "Legs",
+        "type": "TraderStanding",
+        "value": "0.2"
+      },		
+      {
+        "findInRaid": true,
+        "id": "Legs_BOSS4 reward_2",
+        "index": 2,
+        "items": [
+          {
+            "_id": "Legs_BOSS4 reward_2_0",
+            "_tpl": "5449016a4bdc2d6f028b456f",
+            "upd": {
+              "StackObjectsCount": 350000
+            }
+          }
+        ],
+        "target": "Legs_BOSS4 reward_2_0",
+        "type": "Item",
+        "value": "350000"
+      }
+  ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_BOSS4 startedMessageText",
+"successMessageText": "Legs_BOSS4 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+},
+  
+"Legs_BOSS5" : {
+  "QuestName": "Apex Predator - Part 4",
+  "_id": "Legs_BOSS5",
+  "acceptPlayerMessage": "Legs_BOSS5 acceptPlayerMessage",
+  "canShowNotificationsInGame": true,
+  "changeQuestMessageText": "Legs_BOSS5 changeQuestMessageText",
+  "completePlayerMessage": "Legs_BOSS5 completePlayerMessage",
+  "conditions": {
+      "AvailableForFinish": [
+          {
+              "completeInSeconds": 0,
+              "conditionType": "CounterCreator",
+              "counter": {
+                  "conditions":[
+                      {
+                      "bodyPart": [],
+                      "compareMethod": ">=",
+                      "conditionType": "Kills",
+                      "daytime": {
+                        "from": 0,
+                        "to": 0
+                      },
+                      "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                      },
+                      "dynamicLocale": false,
+                      "enemyEquipmentExclusive": [],
+                      "enemyEquipmentInclusive": [],
+                      "enemyHealthEffects": [],
+                      "id": "Legs_BOSS5 Task_1.1",
+                      "resetOnSessionEnd": false,
+                      "savageRole": ["bossKnight"],
+                      "target": "Savage",
+                      "value": 1,
+                      "weapon": [],
+                      "weaponCaliber": [],
+                      "weaponModsExclusive": [],
+                      "weaponModsInclusive": []
+                      }
+                  ],
+                  "id": "Legs_BOSS5 Task_1.2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS5 Task_1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": 1,
+              "visibilityConditions": []
+          
+    },
+    {
+      "completeInSeconds": 0,
+      "conditionType": "CounterCreator",
+      "counter": {
+          "conditions":[
+              {
+              "bodyPart": [],
+              "compareMethod": ">=",
+              "conditionType": "Kills",
+              "daytime": {
+                "from": 0,
+                "to": 0
+              },
+              "distance": {
+                "compareMethod": ">=",
+                "value": 0
+              },
+              "dynamicLocale": false,
+              "enemyEquipmentExclusive": [],
+              "enemyEquipmentInclusive": [],
+              "enemyHealthEffects": [],
+              "id": "Legs_BOSS5 Task_2.1",
+              "resetOnSessionEnd": false,
+              "savageRole": ["followerBigPipe"],
+              "target": "Savage",
+              "value": 1,
+              "weapon": [],
+              "weaponCaliber": [],
+              "weaponModsExclusive": [],
+              "weaponModsInclusive": []
+              }
+          ],
+          "id": "Legs_BOSS5 Task_2.2"
+      },
+      "doNotResetIfCounterCompleted": false,
+      "dynamicLocale": false,
+      "globalQuestCounterId": "",
+      "id": "Legs_BOSS5 Task_2",
+      "index": 0,
+      "oneSessionOnly": false,
+      "parentId": "",
+      "type": "Elimination",
+      "value": 1,
+      "visibilityConditions": []
+  
+},
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+      "conditions":[
+          {
+          "bodyPart": [],
+          "compareMethod": ">=",
+          "conditionType": "Kills",
+          "daytime": {
+            "from": 0,
+            "to": 0
+          },
+          "distance": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "dynamicLocale": false,
+          "enemyEquipmentExclusive": [],
+          "enemyEquipmentInclusive": [],
+          "enemyHealthEffects": [],
+          "id": "Legs_BOSS5 Task_3.1",
+          "resetOnSessionEnd": false,
+          "savageRole": ["followerBirdEye"],
+          "target": "Savage",
+          "value": 1,
+          "weapon": [],
+          "weaponCaliber": [],
+          "weaponModsExclusive": [],
+          "weaponModsInclusive": []
+          }
+      ],
+      "id": "Legs_BOSS5 Task_3.2"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "Legs_BOSS5 Task_3",
+  "index": 0,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Elimination",
+  "value": 1,
+  "visibilityConditions": []
+
+} ],
+      "AvailableForStart": [
+          {
+              "compareMethod": ">=",
+              "conditionType": "Level",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS5 Start_0",
+              "index": 0,
+              "parentId": "",
+              "value": 1,
+              "visibilityConditions": []   
+          },
+          {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "Legs_BOSS5 Start_1",
+              "index": 1,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "Legs_BOSS4",
+              "visibilityConditions": []
+          }
+      ],
+      "Fail":[]
+  },
+  "declinePlayerMessage": "Legs_BOSS5 declinePlayerMessage",
+  "description": "Legs_BOSS5 description",
+  "failMessageText": "Legs_BOSS5 failMessageText",
+  "image": "/files/quest/icon/House_Apex_Predator.png",
+  "instantComplete": false,
+  "isKey": false,
+  "location": "any",
+  "name": "Legs_BOSS5 name",
+  "note": "Legs_BOSS5 note",
+  "restartable": false,
+  "rewards": {
+    "Fail": [],
+    "Started": [{
+      "findInRaid": true,
+      "id": "Spear",
+      "index": 1,
+      "items": [
+        {
+          "_id": "Spear1",
+          "_tpl": "65290f395ae2ae97b80fdf2d",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            },
+            "StackObjectsCount": 1
+          }
+        },
+        {
+          "_id": "SpearGrip",
+          "_tpl": "55d4b9964bdc2d1d4e8b456e",
+          "parentId": "Spear1",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "SpearMag",
+          "_tpl": "65293c7a17e14363030ad308",
+          "parentId": "Spear1",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "SpearCover",
+          "_tpl": "6529119424cbe3c74a05e5bb",
+          "parentId": "Spear1",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "Spearbarrel",
+          "_tpl": "652910565ae2ae97b80fdf35",
+          "parentId": "SpearCover",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "SpearGas",
+          "_tpl": "652910bc24cbe3c74a05e5b9",
+          "parentId": "Spearbarrel",
+          "slotId": "mod_gas_block"
+        },
+        {
+          "_id": "SpearMuzzle",
+          "_tpl": "6529113b5ae2ae97b80fdf39",
+          "parentId": "Spearbarrel",
+          "slotId": "mod_muzzle"
+        },
+        {
+          "_id": "SpearHandguard",
+          "_tpl": "652910ef50dc782999054b97",
+          "parentId": "SpearCover",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "SpearStock",
+          "_tpl": "5c5db6ee2e221600113fba54",
+          "parentId": "Spear1",
+          "slotId": "mod_stock_000"
+        },
+        {
+          "_id": "Spearcharge",
+          "_tpl": "6529109524cbe3c74a05e5b7",
+          "parentId": "Spear1",
+          "slotId": "mod_charge"
+        }
+      ],
+      "target": "Spear1",
+      "type": "Item",
+      "value": "1"
+    }],
+    "Success": [
+      {
+        "id": "Legs_BOSS5 reward_0",
+        "index": 0, 
+        "type": "Experience",
+        "value": "31200"
+      },
+      {
+        "id": "Legs_BOSS5 reward_1",
+        "index": 1,
+        "target": "Legs",
+        "type": "TraderStanding",
+        "value": "0.4"
+      },	
+      {
+        "id": "Legs_BOSS5 reward_3",
+        "index": 2,
+        "items": [
+          {
+            "_id": "SPEAR_Reward",
+            "_tpl": "65290f395ae2ae97b80fdf2d"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "SPEAR_Reward",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "Legs_BOSS5 reward_4",
+        "index": 3,
+        "items": [
+          {
+            "_id": "AMX_Reward2",
+            "_tpl": "627e14b21713922ded6f2c15"
+          }
+        ],
+        "loyaltyLevel": 4,
+        "target": "AMX_Reward2",
+        "traderId": "Legs",
+        "type": "AssortmentUnlock"
+      }
+  ]
+},
+"secretQuest":false,
+"side": "Pmc",
+"startedMessageText": "Legs_BOSS5 startedMessageText",
+"successMessageText": "Legs_BOSS5 successMessageText",
+"traderId": "Legs",
+"type": "Elimination"
+}
+
+
+
+}

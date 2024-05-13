@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+            "_id": "SVD_Reward",
+            "_tpl": "5c46fbd72e2216398b5a8c9c",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+              "StackObjectsCount": 3,
+              "UnlimitedCount": false
+            }
+        }
+    ],
+    "barter scheme":  {
+        "SVD_Reward": [
+            [
+              {
+                "_tpl": "5449016a4bdc2d6f028b456f",
+                "count": 35607
+              }
+            ]
+          ]
+    },
+    
+    "loyal level items":
+    {
+        "SVD_Reward" : 2
+    }      
+    
+}

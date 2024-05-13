@@ -1,0 +1,78 @@
+{
+    "Legs_Unlock I_0": "Hand over any Reflex Sight",
+    "Legs_Unlock I_2": "Find any Relex Sight",
+    "Legs_Unlock name": "A Friend in Need",
+    "Legs_Unlock description": "I see your a fan of building up guns... got a friend that can get you lowers and stripped Kalashnikovs for cheap. You do this and I will pass you his info.",
+    "Legs_Unlock successMessagetext": "Great, here are the cordinates.",
+
+    "Legs_intro I_2": "Find any 5.45 AK Varient in raid",
+    "Legs_intro I_0": "Hand over any 5.45 AK Varient",
+    "Legs_intro name": "Introductions",
+    "Legs_intro description": "My good friend Mechanic tells me you're a fan of building weapons from the ground up. Welcome to your new home... Although, I'm going to need you to make it worth my time.",
+    "Legs_intro successMessagetext": "Aha! It looks like the beginning of a bright future... let me know if you need anything. Also in the future I'll probably have some lucrative deals, but will need some support securing merchandice. I'll let you know.",
+
+    "Legs_ScavHunt Task_1": "Eliminate Hooligans",
+    "Legs_ScavHunt name": "Hooligan Hunt",
+    "Legs_ScavHunt description": "Have you seen what the natives of Tarkov are up to? All they do is loot and scavenge, no respect for their old homes. I'm too old to deal with these 'Hooligans'. They continue to ravage any good spots that have a moment of peace left. Considering you brought me those AKs, I think it's high time that these hooligans find out what it means to be a real shooter... and I think you're the one who can get it done. I dont care where you find them. End them.",
+    "Legs_ScavHunt successMessagetext": "Thank you. 5k per head, as agreed. To be honest, they were probably worth more than that... consider it another way to spit on their graves.",
+
+    "LegsAR Task_1": "Find any ADAR in raid",
+    "LegsAR Task_2": "Hand over any ADAR",
+    "LegsAR Task_3": "Find any M4A1 in raid",
+    "LegsAR Task_4": "Hand over any M4A1",
+    "Legs_AR name": "NATO 'Relations' ",
+    "Legs_AR description": "Remember when I said I might have some better stock? Now's the time to get me the goods. I need 4 AR platforms. 2 ADARs and 2 M4A1s. With these, I can start recieving a steady supply.",
+    "Legs_AR successMessagetext": "Very good. Take one of these ADAR lowers as thanks.",
+    
+    "Legs_PMC1 Task_1": "Eliminate PMCs",
+    "Legs_PMC1 name": "Need a Favor",
+    "Legs_PMC1 description": "Look, I know you're an ex-PMC and all... and probably have some friends out there... but I have a guy that says he can get us some serious hardware. Do this, and he says he will see about getting us a hook-up.",
+    "Legs_PMC1 successMessagetext": "You take anyone out you knew from your past life? Anyone named... nevermind, sorry... here, got a large shipment of M4s. Take two of them, my treat.",
+    
+    "Legs_DMR Task_1": "Eliminate PMCs with headshot",
+    "Legs_DMR name": "Advantage of Range",
+    "Legs_DMR description": "I just got this sample of DMR product, wanna try it out? If it's good then let's get a connect going with this ex-NATO agent. Says there's more where this comes from, but you can never be too safe out here. Go test the accuracy of these and let me know if they're the real deal.",
+    "Legs_DMR successMessagetext": "Damn! Ok, I'll get this guy on the line. Sounds like his product is good. Here's a couple more to build up.",
+
+    "Legs_ScavHunt_Part2 Task_1": "Kill more Hooligans",
+    "Legs_ScavHunt_Part2 name": "Hooligan Hunt - Part 2",
+    "Legs_ScavHunt_Part2 description": "Those pesky hooligans are back and it seems they are angry about those you put 5 feet under. They are threatening to take me out. Do your thing, as always, there is 5k a pop in it for you.",
+    "Legs_ScavHunt_Part2 successMessagetext": "Good, now I can focus on landing us some better connects. Here's the cash.",
+    
+    "Legs_BOSS_Hooligan Task_1": "Eliminate Reshala",
+    "Legs_BOSS_Hooligan name": "Hooligan Hunt - Part 3",
+    "Legs_BOSS_Hooligan description": "I just got word that one of the 'Big Boys' is looking for you. I guess they weren't too happy about how many you put into the dirt for me. I got some info that says he's looking around Customs at the moment. Word of advice: become the predator first. Good luck. I've heard this guy likes to keep some ex-cops with him, so he's not just gonna roll over.",
+    "Legs_BOSS_Hooligan successMessagetext": "Glad to see you're still standing. This is a gift, hopefully it helps you out.",
+    
+    "Legs_Noodle Task_1": "Hand over found in raid noodles",
+    "Legs_Noodle name": "I'm Hungry",
+    "Legs_Noodle description": "Look, this request is gonna sound ridiculous, I need some instant noodles. After hearing that we've got some notoriety in the area, I wanna have a go-bag prepared just in case. I could really use some food that I can store for a while. I'll make it worth your while... trust me.",
+    "Legs_Noodle successMessagetext": "Here, I have been holding onto these for a special request. Never thought it would be for noodles though. These will make you meaner on the streets than every shmuck out there.",
+
+    "Legs_BOSS2 Task_1": "Eliminate Killa",
+    "Legs_BOSS2 name": "Apex Predator - Part 1",
+    "Legs_BOSS2 description": "I got to thinking, if we're gonna keep growing my stock and business, I need to make sure that I can prove to the remaining people in Tarkov not to fuck with me. Since you already took care of Reshala, I think I might as well hire you to take out some more of the big fish. Start with this guy... word on the street is, he goes by 'Killa'. I wont lie, the reward's not as great. I'm giving most of it up front with this kitted Mutant. Consider it a signing bonus. I had Mechanic put it together. Happy Hunting!",
+    "Legs_BOSS2 successMessagetext": "Perfect. Had both variants of the AK545 shipped in. Take a look."
+    ,
+    "Legs_DMR_Part2 Task_1": "Eliminate PMCs with headshot",
+    "Legs_DMR_Part2 name": "Advantage of Range - Part 2",
+    "Legs_DMR_Part2 description": "Looks like our hardwork is starting to pay off. Next sample product came in for the DMRs. Here are two RSASS, fully built up. Test them out and get back to me.",
+    "Legs_DMR_Part2 successMessagetext": "Very good. I'll do the final paperwork to get a steady supply in. In the meantime, I've got some other jobs for you.",
+
+    "Legs_BOSS3 Task_1": "Eliminate Tagilla",
+    "Legs_BOSS3 name": "Apex Predator - Part 2",
+    "Legs_BOSS3 description": "Next on the list is this psycho that goes by Tagilla. Dude is obsessed with smashing people with a sledgehammer so watch your corners. The guy hangs around in Factory so I thought a KS-23 might do the trick. Good luck.",
+    "Legs_BOSS3 successMessagetext": "Hope you had a good time cause were going to keep this train going...",
+
+    "Legs_BOSS4 Task_1": "Eliminate Kaban",
+    "Legs_BOSS4 name": "Apex Predator - Part 3",
+    "Legs_BOSS4 description": "My final contact says hes got two more targets for you before we can get access to the best gear. First up is a man named Kaban, He has got a compound in that large car dealership on Streets. He is gonna have an army with him so make sure your prepared. ",
+    "Legs_BOSS4 successMessagetext": "Sorry I dont have any sweet gear for you. How does 350k sound?",
+
+    "Legs_BOSS5 Task_1": "Eliminate Knight",
+    "Legs_BOSS5 Task_2": "Eliminate Big Pipe",
+    "Legs_BOSS5 Task_3": "Eliminate Bird Eye",
+    "Legs_BOSS5 name": "Apex Predator - Part 4",
+    "Legs_BOSS5 description": "Do this and I'll have access to the best of the best platforms available. They go by the Goon Squad. Show them who the real Apex Predator is.",
+    "Legs_BOSS5 successMessagetext": "Welcome back. Now that they are out of the way I can set you up right, just stop by."
+}
